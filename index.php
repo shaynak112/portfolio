@@ -312,7 +312,9 @@
                   <div class="media animate-this"  data-animate="fadeInRight">
                      <img style='border:solid 1px #54FF9F;width:60%;' src="images/RYU/RYUNextBus.jpg" alt="Next Bus Arrivals from Remember Your Umbrella">
                   </div>                                    
-               </div>
+
+               </div><!--end media wrap div-->
+
 
 
    				
@@ -333,24 +335,21 @@
 	   					<li>use information based on latitude and logitude for TTC as well as weather APIs</li>
 	   					<li>shows image based on type of weather</li>
    					</ul>
+                  </div><!--end animate this div class-->
                   <br/>
                   <br/>
                   <br/>
                   <br/>
                   <br/>
                   <br/>
-   					</div>
-            </div>
-
-   					<!--<a href="#" class="button animate-this" data-animate="fadeInLeft">Learn More</a>-->
-   			 					
-   				</div>   
-               </div>				
+                  </div><!--end col-six tex-part-->
+   					</div><!--end row entry div-->
+            </div><!--end row info-entry-content div-->
+			
    				
-   			</div> <!-- /info-entry-content -->
-   			</div> <!-- /info-entry -->
+  
 
-<div class="info-entry">
+         <div class="info-entry">
 
             <div class="half-grey"></div>
 
