@@ -301,17 +301,17 @@
                   
 
                   <div class="media animate-this"  data-animate="fadeInRight">
-                     <img style='border:solid 1px #54FF9F;' src="images/RYU/RYUweather.jpg" alt="Weather Predictions from Remember Your Umbrella">
+                     <img style='border:solid 1px #54FF9F;' src="images/RYU/RYUMobileResults.JPG" alt="TTC Weather Predictions from RYU via mobile">
                   </div>
 
    					<div class="media animate-this"  data-animate="fadeInRight">
-   						<img style='border:solid 1px #54FF9F;' src="images/RYU/RYUChooseRoute.jpg" alt="choose route for Remember Your Umbrella">
+   						<img style='border:solid 1px #54FF9F;' src="images/RYU/RYUCompResults.JPG" alt="TTC and Weather Predictions from RYU via computer">
    					</div>
 
 
-                  <div class="media animate-this"  data-animate="fadeInRight">
-                     <img style='border:solid 1px #54FF9F;width:60%;' src="images/RYU/RYUNextBus.jpg" alt="Next Bus Arrivals from Remember Your Umbrella">
-                  </div>                                    
+                  <!--<div class="media animate-this"  data-animate="fadeInRight">
+                     <img style='border:solid 1px #54FF9F;width:60%;' src="images/RYU/RYUMobileIndex.JPG" alt="Next Bus Arrivals from Remember Your Umbrella">
+                  </div>-->                                    
 
                </div><!--end media wrap div-->
 
@@ -329,11 +329,13 @@
    					<p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, APIs from TTC and weather, CSS, JavaScript, XML, Materialize</p>
    					<div class="animate-this" data-animate="fadeInLeft">
    					<ul>
+                     <li>mobile friendly; all necessary features available on mobile</li>
 	   					<li>user chooses the route and stop where he/she will be boarding the bus</li>
 	   					<li>displays next (up to) five vehicle arrivals</li>
 	   					<li>displays the weather</li>
 	   					<li>use information based on latitude and logitude for TTC as well as weather APIs</li>
 	   					<li>shows image based on type of weather</li>
+                     <li>desktop version includes animated raindrops through CSS animations</li>
    					</ul>
                   </div><!--end animate this div class-->
                   <br/>
