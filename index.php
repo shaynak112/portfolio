@@ -116,7 +116,7 @@
 
 	   			<h2 style='color:#4CCC7E;'>About Shayna</h2>
 
-	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I'm currently a student in the post-graduate Web Development program at Humber College. I have worked mostly with PHP, JavaScript, and MySQL although I have experience in various other programming languages and frameworks.</div>
+	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I am a Web Developer. I have worked mostly with PHP, Python, MySQL, and although I have experience in various other programming languages and frameworks.</div>
 
 	   			<br/>
 
@@ -167,7 +167,7 @@
 
    					<p class="animate-this" data-animate="fadeInLeft"><a style='color:#8c8cff;' href='http://nathanmante.com/News/index.php'>Link to VOXWEB</a></p>
    					<p class="animate-this" data-animate="fadeInLeft">Tech News site that allows for user interaction</p>
-   					<p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, AJAX, JavaScript, CSS, HTMl, MySQL, Bootstrap</p>
+   					<p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, AJAX, JavaScript, CSS, HTML, MySQL, Bootstrap</p>
    					<div class="animate-this" data-animate="fadeInLeft"><strong>Articles</strong>
    						<ul>
    							<li>displayed brief informaton about each article based on various queries</li>
@@ -234,7 +234,7 @@
 	            	</div>
 
                   <div class="media animate-this" data-animate="fadeInLeft">
-                  <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminUpcomingEvents.jpg" alt="Admin page for one upcoming event for Point">
+                  <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminHomepage.jpg" alt="Admin page for one upcoming event for Point">
                   </div>
 
 
@@ -249,7 +249,7 @@
 
    					<p class="animate-this" data-animate="fadeInRight"><a style='color:#8c8cff;' href="http://www.pointentertainmentto.com/">Link to Point Entertainment Toronto</a></p>
    					<p class="animate-this" data-animate="fadeInRight">Website for group of friends who throw events throughout the city</p>
-   					<p class="animate-this" data-animate="fadeInRight">Technology Used: PHP, MySQL, JavaScript, CSS, HTML, social media</p>
+   					<p class="animate-this" data-animate="fadeInRight">Technology Used: PHP, MySQL, JavaScript, CSS, HTML, APIs, social media</p>
 
    					<div class="animate-this" data-animate="fadeInRight"><strong>User Side</strong>
 	   				<ul>
@@ -257,7 +257,7 @@
 	   					<li>contact us page includes another form sent to a separate inbox</li>
 	   					<li>gallery uses JavaScript to make each image interactable</li>
 	   					<li>previous events lists a few of the previous event flyers and, when clicked, redirects to the social media page</li>
-	   					<li>ability to share future events through social media (Facebook, Twitter)</li>
+	   					<li>ability to share future events through social media (Facebook, Twitter, Instagram)</li>
 	   					<li>section that includes the DJs uses JavaScript to give more information about each DJ where the user can interact</li>
    					</ul>
    					</div>
@@ -267,7 +267,7 @@
                      <li>admin staff can add upcoming events as well as make changes to events already posted</li>
                      <li>guestlists for each event are stored in the database and can be printed out whenever requested</li>
                      <li>financials from previous events are available as well as basic budgeting tools</li>
-                     <li>admin staff can adjust partners, venues, subscribers, etc. whenever necessary</li>
+                     <li>admin staff can keep track of guestlist submitted by promoters and DJs and combine them for each event</li>
                      <li>admin staff can track the social media accounts as well as post to the social media accounts</li>
                   </ul>
 
