@@ -55,7 +55,7 @@
    	
 
 	   <a class="menu-toggle" href="#"><span>Menu</span>
-      S//</a>   	
+      </a>   	
 
    </header>
 
@@ -68,42 +68,29 @@
 			<li><a class="smoothscroll" style='color:#54FF9F;' href="#intro" title="">Home</a></li>
 			<li><a class="smoothscroll" style='color:#54FF9F;' href="#about" title="">About</a></li>
          <li class="treeview smoothscroll">
-            <i class="fa fa-user"></i>
-            <span>Projects</span>
+            <li a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="">Projects</span></li>
+            <ul>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#vox" title="">VOXWEB</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#point" title="">Point Entertainment</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#ryu" title="">Remember Your Umbrella</a></li>
-               <li><a class="smoothscroll" style='color:#54FF9F;' href="#catAdopt" title="">Cat Adoption (in progress)</a></li>
+               <li><a class="smoothscroll" style='color:#54FF9F;' href="#catAdopt" title="">Cat Adoption</a></li>
             </li>
             </ul>
+         </li>
+
+         <li><a class="smoothscroll" style='color:#54FF9F;' href="#contact" title="">Contact</a></li>    
+
+			<!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="">Projects</a></li>
 
 
-			<li><a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="">Projects</a></li>
+			<li><a class="smoothscroll" style='color:#54FF9F;' href="#caseStudies" title="">Case Study</a></li>
+			<li><a class="smoothscroll" style='color:#54FF9F;' href="#moreInfo" title="">Additional Information</a></li>	
+				
+		</ul>-->
 
 
-			<!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#caseStudies" title="">Case Study</a></li>
-			<li><a class="smoothscroll" style='color:#54FF9F;' href="#moreInfo" title="">Additional Information</a></li>	-->
-			<li><a class="smoothscroll" style='color:#54FF9F;' href="#contact" title="">Contact</a></li>			
-		</ul>
-
-
-
-              <li class="treeview">
-          <a href="#">
-            <i class="fa fa-user"></i>
-            <span>Accounts</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-                 
-            <!--<li><a href="accountsApprove.php"><i class="fa fa-circle-o"></i>Approve Users</a></li>
-            <li><a href="accountsUpdate.php"><i class="fa fa-circle-o"></i>Update Users Permissions</a></li>-->
-            <li><a href="accountsView.php"><i class="fa fa-circle-o"></i>View Users</a></li>
-            
           </ul>
-        </li>
+
 
 	</nav> <!-- /menu-nav-wrap -->
 
@@ -122,10 +109,10 @@
 		   <div class="row intro-content">
 		   	<div class="col-twelve">
 
-					<h1 style='color:#54FF9F' class="animate-intro">
+					<h1 style='color:#54FF9F;' class="animate-intro">
 						Shayna Kingsbury
 					</h1>
-					<h3 style='color:white' class="animate-intro">Web Developer</h3>	
+					<h3 style='color:white;' class="animate-intro">Web Developer</h3>	
 					
 					<br/>
 
@@ -150,11 +137,23 @@
 
 	   			<h2 style='color:#4CCC7E;'>About Shayna</h2>
 
-	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I am a Web Developer. I have worked mostly with PHP, Python, MySQL, JavaScript, and although I have experience in various other programming languages and frameworks.</div>
+	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I am a Web Developer. I have worked mostly with PHP, Python, MySQL, and JavaScript although I have experience in various other programming languages and frameworks.</div>
 
 	   			<br/>
 
+
 	   			<div style='text-align:center;font-size:1.5em;'><a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a>
+                </div>
+
+               <br/>
+               <br/>
+               <br/>
+
+
+                <div style='text-align:center;font-size:1.5em;border:solid 2px;background-color:#8c8cff;color:black;'>
+
+<a style='color:black;' href="ShaynaKingsburyResume.pdf" download="ShaynaKingsburyResume.pdf">Download Shayna's Resume</a>
+
                 </div>
 
 	   		</div>   		
@@ -169,7 +168,7 @@
    	================================================== -->
    	<section id="projects">
 
-      <section id='voxweb'>
+      <section id='vox'>
 
    		<div class="info-entry">
 
@@ -344,11 +343,11 @@
                   </div>
 
    					<div class="media animate-this"  data-animate="fadeInRight">
-   						<img style='border:solid 1px #54FF9F;' src="images/RYU/RYUCompResults.JPG" alt="TTC and Weather Predictions from RYU via computer">
+   						<img style='border:solid 1px #54FF9F;width:80%;' src="images/RYU/RYUCompResults.JPG" alt="TTC and Weather Predictions from RYU via computer">
    					</div>
 
 
-                  -<div class="media animate-this"  data-animate="fadeInRight">
+                  <div class="media animate-this"  data-animate="fadeInRight">
                      <img style='border:solid 1px #54FF9F;width:60%;' src="images/RYU/RYUMobileIndex.JPG" alt="Next Bus Arrivals from Remember Your Umbrella">
                   </div>                                 
 
@@ -391,7 +390,7 @@
    				
   
 
-         <div class="info-entry">
+         <div class="info-entry" id='catAdopt'>
 
             <div class="half-grey"></div>
 
@@ -686,8 +685,114 @@
 
 	   </section> <!-- /moreInfo Us -->
 
+       <!-- contact
+    ================================================== -->
+       <section style='color:#003026;' id="contact">
+        <div style='color:#003026;' class="row">
+
+            <div class="col-twelve">
+
+                <h2 style='color:black;text-align:center;' class="h01 animate-this" data-animate="fadeInRight">
+                  Contact Shayna
+               </h2>
+
+                <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>E-mail: <a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a></p>
+                <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>Phone: 647-963-6315</p>
+
+                <div style='color:#003026;text-align:center;' class="buttons animate-this" data-animate="fadeInRight">
+                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" style='color:#003026;' class="button animate-intro">LinkedIn</a>
+                        <a href="https://github.com/shaynak112" style='color:#003026;' class="button animate-intro">GitHub</a>
+                </div>
+
+                <br/>
+                <br/>
+                <br/>
+
+                <div class='col-twelve animate-this' data-animate="fadeInLeft" align='center'>
+
+                    <form name="contactform" style='margin:0 auto;' method="post" action="">
+
+                <div>
+                <label for="yourName" >Your name: </label>
+                  <input id="yourName" type="text" style='width:30%;' placeholder="Name" name="yourName"/>
+                </div>
+
+                <div>
+                <label for="email">Your e-mail address: </label>
+                  <input id="email" type="text" style='width:30%;' placeholder="Email" name="email"/>
+                </div>
+
+                <div>
+                <label for="phone">Your phone number: </label>
+                  <input id="phone" type="text" style='width:30%;' placeholder="Phone Number" name="phone"/>
+                </div>
+
+                <div>
+                <label for="message">Your message: </label>
+                </div>
+                <div>
+                  <textarea cols='50%' id="message" placeholder="Message" name="message" style='width:40%;'> </textarea>
+                </div>
 
 
+                  <input type="submit" value="Submit" name="Submit" id="Submit">
+
+                  </form>
+
+                  <?php
+
+
+
+
+            
+                ini_set("SMTP","mail.shaynak112.com");
+                ini_set("smtp_port","25");
+                ini_set('sendmail_from', 'test@shaynak112.com');
+
+                $from = "Sender <test@shaynak112.com>";
+                $to = "Shayna <shayna@shaynak112.com>";
+                $subject = "Message from Portfolio Website";
+
+                $headers = array ('From' => $from, 'To' => $to, 'Subject' => $subject);
+
+                if(isset($_POST['Submit']))
+                {
+                  $contactName = $_POST['yourName'];
+                  $contactEmail = $_POST['email'];
+                  $contactPhone = $_POST['phone'];
+                  $contactBody = $_POST['message'];
+                  $message = "A message from " . $contactName . " at " . $contactEmail . " and " . $contactPhone . " The message is:     " . $contactBody;
+
+                  mail($to,$subject,$message,$from);
+               }
+             
+             /* $formVal = new formValidation();
+
+              $validateName = $formVal->inputTextLogic($contactName);
+              $vvalidateEmail = $formVal->emailLogic($contactEmail);
+              $validatePhone = $formVal->phoneLogic($contactPhone);
+              $validateBody = $formVal->inputTextLogic($contactBody);
+
+
+              if($validateName=='' && $validateEmail=='' && $validatePhone=='' && $validateBody=='')
+               {
+                  mail($to,$subject,$message,$from);
+                  echo "<br/>Message sent";
+               }
+               else
+               {
+                  echo "<br/>Please fill out all fields correctly.";
+               }
+                }*/
+
+                ?>
+                 
+                </div>  <!-- end div class col 12 form-->
+                </div>  <!-- end div class col 12 for whole contact us section-->
+                    
+            </div> <!--end row-->
+        
+       </section> <!-- /contact Us -->
 
    
    </div> <!-- /main-content-wrap -->
