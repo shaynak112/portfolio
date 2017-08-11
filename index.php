@@ -137,7 +137,9 @@
 
 	   			<h2 style='color:#4CCC7E;'>About Shayna</h2>
 
-	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I am a Web Developer. I have worked mostly with PHP, Python, MySQL, and JavaScript although I have experience in various other programming languages and frameworks.</div>
+	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I am a Web Developer. I have worked mostly with PHP, Python, MySQL, and JavaScript.</div>
+               <br/>
+               <div style='color:black;font-size:1.1em;'>Other languages I have worked in recently include jQuery, HTML, CSS, AJAX. I have worked with various APIs and XML. I use frameworks such as Bootstrap, Laravel, Materialize, phpMyAdmin, and flask. I have prior experience with programming languages such as C, C#, C++, Turing, Visual Basic, and Java. I can work with both Windows and Linux and have experience with version control systems such as Git. I am currently working on projects that include learning Django and AngularJS.</div>
 
 	   			<br/>
 
@@ -147,10 +149,9 @@
 
                <br/>
                <br/>
-               <br/>
 
 
-                <div style='text-align:center;font-size:1.5em;border:solid 2px;background-color:#8c8cff;color:black;'>
+                <div style='text-align:center;font-size:1.5em;border:solid 2px;background-color:#4CCC7E;color:black;'>
 
 <a style='color:black;' href="ShaynaKingsburyResume.pdf" download="ShaynaKingsburyResume.pdf">Download Shayna's Resume</a>
 
