@@ -137,14 +137,26 @@
 
 	   			<h2 style='color:#4CCC7E;'>About Shayna</h2>
 
-	   			<div style='color:black;font-size:1.3em;'>My name is Shayna and I am a Web Developer. I have worked mostly with PHP, Python, MySQL, and JavaScript.</div>
+	   			<div style='color:black;font-size:1.3em;'>Hi! My name is Shayna and I develop web applications.</div>
                <br/>
-               <div style='color:black;font-size:1.1em;'>Other languages I have worked in recently include jQuery, HTML, CSS, AJAX. I have worked with various APIs and XML. I use frameworks such as Bootstrap, Laravel, Materialize, phpMyAdmin, and flask. I have prior experience with programming languages such as C, C#, C++, Turing, Visual Basic, and Java. I can work with both Windows and Linux and have experience with version control systems such as Git. I am currently working on projects that include learning Django and AngularJS.</div>
-
+               <div style='color:black;font-size:1.1em;'>My area of expertise is the architecture and development of web application client and server sides to create dynamic web experiences. I am also skilled with HTML5 / CSS3.</div>
 	   			<br/>
 
+               <div style='color:black;font-size:1.1em;'>Browse my projects for an example of some sample dynamic web applications, including dynamic API applications.</div>
+               <br/>
 
-	   			<div style='text-align:center;font-size:1.5em;'><a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a>
+
+<strong><div style='color:black;font-size:1.1em;'>Technical Skills</div></strong>
+               <br/>
+
+
+<div style='color:black;font-size:1.1em;'>Fluent in PHP 7.0, Python 3, HTML5 / CSS3 (including mobile friendly development), JavaScript (including jQuery, AngularJS, and nodeJS frameworks), XML, MySQL, Oracle SQL, MSSQL, and Sqlite3.</div>
+<div style='color:black;font-size:1.1em;'>In addition I have previous experience in C, C++, C#, Java, Turing,  and Visual Basic. I have experience working with: the following frameworks: Bootstrap, Magento, Laravel, Materialize, Flask; version control systems - Git and Subversion, and many more. I am knowledgeable in both Windows and Linux environments for development.</div>
+               <br/>
+
+
+
+	   			<div style='text-align:center;font-size:1.5em;'><a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">Email shayna@shaynak112.com</a>
                 </div>
 
                <br/>
@@ -153,7 +165,7 @@
 
                 <div style='text-align:center;font-size:1.5em;border:solid 2px;background-color:#4CCC7E;color:black;'>
 
-<a style='color:black;' href="ShaynaKingsburyResume.pdf" download="ShaynaKingsburyResume.pdf">Download Shayna's Resume</a>
+<a style='color:black;' href="ShaynaKingsburyResume.pdf" download="ShaynaKingsburyResume.pdf" style='margin-top:2px;margin-bottom:2px'>Shayna's CV available for download</a>
 
                 </div>
 
@@ -219,7 +231,7 @@
    						<ul>
    							<li>home page includes a slideshow of the images submitted within the past week</li>
    							<li>users can view all images submitted within the past month</li>
-   							<li>users can search for archived photos based on category, </li>
+   							<li>users can search for archived photos based on category, author, and title</li>
    							<li>users can log in to submit their own image</li>
    						</ul>
    					</div>
@@ -267,12 +279,21 @@
 	  					<img style='border:solid 1px #54FF9F;' src="images/point/pointFuture.jpg" alt="Future events page for Point">
 	            	</div>
 
-	            	<div class="media animate-this" data-animate="fadeInLeft">
-	  					<img style='border:solid 1px #54FF9F;' src="images/point/pointDJs.jpg" alt="DJs page for Point">
-	            	</div>
 
                   <div class="media animate-this" data-animate="fadeInLeft">
                   <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminHomepage.jpg" alt="Admin page for one upcoming event for Point">
+                  </div>
+
+                  <div class="media animate-this" data-animate="fadeInLeft">
+                  <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminEventDetails.jpg" alt="Event Details for one of Point's events">
+                  </div>
+
+                  <div class="media animate-this" data-animate="fadeInLeft">
+                  <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminContact.jpg" alt="contact information for one of Point's contacts">
+                  </div>
+
+                  <div class="media animate-this" data-animate="fadeInLeft">
+                  <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminNewsletters.jpg" alt="newsletter and subscriber page for Point">
                   </div>
 
 
@@ -292,7 +313,6 @@
    					<div class="animate-this" data-animate="fadeInRight"><strong>User Side</strong>
 	   				<ul>
 	   					<li>forms for guestlists (for each individual event) that are sent to specific inboxes for each form</li>
-	   					<li>contact us page includes another form sent to a separate inbox</li>
 	   					<li>gallery uses JavaScript to make each image interactable</li>
 	   					<li>previous events lists a few of the previous event flyers and, when clicked, redirects to the social media page</li>
 	   					<li>ability to share future events through social media (Facebook, Twitter, Instagram)</li>
@@ -302,11 +322,14 @@
 
                   <div class="animate-this" data-animate="fadeInRight"><strong>Administrative Side</strong>
                   <ul>
-                     <li>admin staff can add upcoming events as well as make changes to events already posted</li>
-                     <li>guestlists for each event are stored in the database and can be printed out whenever requested</li>
-                     <li>financials from previous events are available as well as basic budgeting tools</li>
-                     <li>admin staff can keep track of guestlist submitted by promoters and DJs and combine them for each event</li>
+                     <li>assistants can update most of the webpage and have access to all necessary information in one location rather than the owners doing all the work; it saves the owners time and money</li>
+                     <li>admin staff can add upcoming events as well as make changes to events already posted (such as change details or publish an event that was previously a draft)</li>
+                     <li>guestlists for each event are stored in the database and can be viewed, printed, or e-mailed whenever requested</li>
+                     <li>assistants can log in an enter guestlists for promoters or DJs and promoters and DJs can also log in to add to their guestlists</li>
+                     <li>financials from previous events are available as well as basic budgeting tools; can compare previous similar events and also make predictions</li>
                      <li>admin staff can track the social media accounts as well as post to the social media accounts</li>
+                     <li>easy access to contact information of anyone Point works with (promoters, DJs, club owners, security, photographers, etc.) as well as a basic search function</li>
+                     <li>admin staff can keep track of all subscribers to the newsletter as well as the newsletters that have been sent out; newsletter templates are also made available for convenience for the assistants</li>
                   </ul>
 
                   </div>
