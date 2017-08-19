@@ -65,20 +65,22 @@
 
    	<h3>Navigation</h3>   	
 		<ul class="nav-list">
-			<li><a class="smoothscroll" style='color:#54FF9F;' href="#intro" title="">Home</a></li>
-			<li><a class="smoothscroll" style='color:#54FF9F;' href="#about" title="">About</a></li>
+			<li><a class="smoothscroll" style='color:#54FF9F;' href="#intro" title="Portfolio Home">Home</a></li>
+			<li><a class="smoothscroll" style='color:#54FF9F;' href="#about" title="About Shayna">About</a></li>
          <li class="treeview smoothscroll">
-            <li a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="">Projects</span></li>
+            <li a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="Projects">Projects</span></li>
             <ul>
-               <li><a class="smoothscroll" style='color:#54FF9F;' href="#vox" title="">VOXWEB</a></li>
-               <li><a class="smoothscroll" style='color:#54FF9F;' href="#point" title="">Point Entertainment</a></li>
-               <li><a class="smoothscroll" style='color:#54FF9F;' href="#ryu" title="">Remember Your Umbrella</a></li>
-               <li><a class="smoothscroll" style='color:#54FF9F;' href="#catAdopt" title="">Cat Adoption</a></li>
+               <li><a class="smoothscroll" style='color:#54FF9F;' href="#vox" title="VOXWEB news site">VOXWEB</a></li>
+               <li><a class="smoothscroll" style='color:#54FF9F;' href="#point" title="Point Entertainment Toronto">Point Entertainment</a></li>
+               <li><a class="smoothscroll" style='color:#54FF9F;' href="#ryu" title="Remember Your Umbrella">Remember Your Umbrella</a></li>
+               <li><a class="smoothscroll" style='color:#54FF9F;' href="#catAdopt" title="Cat Adoption">Cat Adoption</a></li>
             </li>
             </ul>
          </li>
+         <!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#caseStudyPoint" title="mockup to draft to HTML">Point Case Study</a></li>
+         <li><a class="smoothscroll" style='color:#54FF9F;' href="#mockups" title="mockup to draft to HTML">Mockups</a></li>-->
 
-         <li><a class="smoothscroll" style='color:#54FF9F;' href="#contact" title="">Contact</a></li>    
+         <li><a class="smoothscroll" style='color:#54FF9F;' href="#contact" title="contact Shayna">Contact</a></li>    
 
 			<!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="">Projects</a></li>
 
@@ -165,7 +167,7 @@
 
                 <div style='text-align:center;font-size:1.5em;border:solid 2px;background-color:#4CCC7E;color:black;'>
 
-<a style='color:black;' href="ShaynaKingsburyResume.pdf" download="ShaynaKingsburyResume.pdf" style='margin-top:2px;margin-bottom:2px'>Shayna's CV available for download</a>
+<a style='color:black;' href="ShaynaKingsburyResume.pdf" download="ShaynaKingsburyResume.pdf" style='margin-top:2px;margin-bottom:2px'>Shayna's CV - Download (PDF)</a>
 
                 </div>
 
@@ -198,12 +200,12 @@
    						<img style='border:solid 1px #54FF9F;' src="images/voxweb/voxSearch.jpg" alt="searching on VOXWEB">
    					</div>  
 
-   					<div class="media animate-this"  data-animate="fadeInRight">
-   						<img style='border:solid 1px #54FF9F;' src="images/voxweb/voxChat.jpg" alt="chat feature on VOXWEB">
-   					</div>
-
                   <div class="media animate-this"  data-animate="fadeInRight">
                      <img style='border:solid 1px #54FF9F;' src="images/voxweb/voxImgSearch.jpg" alt="user submitted images search feature on VOXWEB">
+                  </div>
+
+         <div class="media animate-this"  data-animate="fadeInRight">
+                     <img style='border:solid 1px #54FF9F;' src="images/voxweb/voxChat.jpg" alt="chat feature on VOXWEB">
                   </div>
 
    				</div>
@@ -216,6 +218,7 @@
    					<p class="animate-this" data-animate="fadeInLeft"><a style='color:#8c8cff;' href='http://nathanmante.com/News/index.php'>Link to VOXWEB</a></p>
    					<p class="animate-this" data-animate="fadeInLeft">Tech News site that allows for user interaction</p>
    					<p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, AJAX, JavaScript, CSS, HTML, MySQL, Bootstrap</p>
+                  <p class="animate-this" data-animate="fadeInLeft">worked in a team to create the website</p>
    					<div class="animate-this" data-animate="fadeInLeft"><strong>Articles</strong>
    						<ul>
    							<li>displayed brief informaton about each article based on various queries</li>
@@ -347,7 +350,7 @@
    		</div> <!-- /info-entry -->
 
 
-</section>\
+</section>
 
    		<!--TTC Weather-->
          <sectoin id='ryu'>
@@ -409,10 +412,11 @@
                   </div><!--end col-six tex-part-->
    					</div><!--end row entry div-->
             </div><!--end row info-entry-content div-->
-            </sectoin>
+            </section>
 			
    				
   
+<section id='catAdopt'>
 
          <div class="info-entry" id='catAdopt'>
 
@@ -575,129 +579,12 @@
 
 	   	
 
-	   </section> <! Case Studies -->
+	   </section> 
 
-
+-->
 	
+			
 
-<!-- More Info
-   	================================================== -->
-	<!--	<section id="moreInfo">
-
-	   	<div class="row section-intro animate-this">
-	   		<div class="col-twelve with-bottom-line">
-
-	   			<h2>Additional Information</h2>
-
-	   			<p>I am currently a student in the post-graduate Web Development program at Humber College. Prior to going back to school, I was working for five years. I also completed my diploma for Executive Office Administration about six years ago. While I was employed full time, I continued to take part time courses (in programming, payroll, and human resources). I have worked mostly with PHP, JavaScript, and MySQL although I have experience in various other programming languages and frameworks. I have worked with jQuery, HTML, Python, C, C++, Java, C#, Turing, VisualBasic, XML, and various APIs.</p>
-				<p>My most recent job was with a company for five years where I was part time, promoted to full time, and unfortunately had to decrease my hours to part time when I went back to college. Through working with the company for five years, I have had a lot of experience with teamwork, communication, customer service, and time management. I was also able to look at many of the current processes and increase the efficiency either through Microsoft Excel or basic programming skills. I worked in a very fast-paced, time sensitive environment and am used to expecting the unknown.</p>
-
-				</div><!end class bottom line
-				</div><!end class row)
-
-			<div class="row animate-this" >
-			<h2 class="animate-this" style='font-color:#003026;font-size:1.7em;text-align:center;'>Education and Experience</h2>
-			</div>
-
-
-
-	   	<div class="row animate-this" style='font-color:#003026;' >
-	   		<div style='font-color:#003026;' class="col-twelve">
-
-					<div style='font-color:#003026;'>
-						
-
-					<br/>
-					<div class="col-twelve" style='font-color:#003026;'>
-						<div class="col-six" style='font-color:#003026;'>
-						<h4 style='font-color:#003026;font-size:1.7em;margin-left:15%;'>Education</h4>
-
-							<div style='font-size:0.9em;' class="col-four">
-							2016 - current
-							</div>
-
-							<div class="col-eight">
-								<strong>Web Development (post-graduate program)</strong>
-								<div style='font-size:0.9em;'>
-								Humber College, Toronto ON
-		                    	</div>
-		                    	<div style='font-size:0.9em;'>
-		                    	Expected Graduation: August 2017
-		                    	</div>
-							</div>
-
-							<div style='font-size:0.9em;' class="col-four">
-							2012 - 2014
-							</div>
-
-							<div class="col-eight">
-		 						<strong>PCP Certification</strong>
-		                    	<div style='font-size:0.9em;'>
-		                    	Canadian Payroll Association
-		                    	</div>
-		                    	<div style='font-size:0.9em;'>
-		                    	Payroll Compliance Practitioner
-		                    	</div>
-							</div>
-
-							<div style='font-size:0.9em;' class="col-four">
-							2009 - 2011
-							</div>
-
-							<div class="col-eight">
-								<strong>Diploma, Office Administration - Executive</strong>
-		                    	<div style='font-size:0.9em;'>
-		                    	Conestoga College, Kitchener ON
-		                    	</div>
-							</div>
-					</div>
-
-					
-						<div class="col-six">
-						<h4 style='font-size:1.7em;margin-left:15%;;'>Experience</h4>
-
-							<div style='font-size:0.9em;' class="col-four">
-							2016 - 2017
-							</div>
-
-							<div class="col-eight">
-							<strong>Scheduling Administrator</strong>
-	                    	<div style='font-size:0.9em;'>
-	                    	Maple Leaf Sports &amp; Entertainment
-	                    	</div>
-							</div>
-
-							<div style='font-size:0.9em;' class="col-four">
-							2013 - 2016
-							</div>
-
-							<div class="col-eight">
-							<strong>Scheduling Coordinator</strong>
-	                    	<div style='font-size:0.9em;'>
-	                    	Maple Leaf Sports &amp; Entertainment
-	                    	</div>
-							</div>
-
-							<div style='font-size:0.9em;' class="col-four">
-								2011 - 2013
-							</div>
-
-							<div class="col-eight">
-								<strong>Scheduling Administrator</strong>
-	                    		<div style='font-size:0.9em;'>
-	                    		Maple Leaf Sports &amp; Entertainment
-	                    		</div>
-							</div>
-
-
-						</div>
-					</div>
-
-					<!close div for row-->   			
-
-			   	<!-- <a class="button large animate-this" href="#">                               
-			         Download Elevate
-			      </a>  	could download resume-->
 
 	   		</div>
 	   	</div>
@@ -705,118 +592,30 @@
 	   		</div>   		
 	   	</div>
 
+         <!-- Case Study Point
+      ================================================== -->
+
+<?php/*apparantly need to write
+
+   include 'caseStudyPoint.php';*/
+?>
 
 
-	   </section> <!-- /moreInfo Us -->
-
-       <!-- contact
-    ================================================== -->
-       <section style='color:#003026;' id="contact">
-        <div style='color:#003026;' class="row">
-
-            <div class="col-twelve">
-
-                <h2 style='color:black;text-align:center;' class="h01 animate-this" data-animate="fadeInRight">
-                  Contact Shayna
-               </h2>
-
-                <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>E-mail: <a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a></p>
-                <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>Phone: 647-963-6315</p>
-
-                <div style='color:#003026;text-align:center;' class="buttons animate-this" data-animate="fadeInRight">
-                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" style='color:#003026;' class="button animate-intro">LinkedIn</a>
-                        <a href="https://github.com/shaynak112" style='color:#003026;' class="button animate-intro">GitHub</a>
-                </div>
-
-                <br/>
-                <br/>
-                <br/>
-
-                <div class='col-twelve animate-this' data-animate="fadeInLeft" align='center'>
-
-                    <form name="contactform" style='margin:0 auto;' method="post" action="">
-
-                <div>
-                <label for="yourName" >Your name: </label>
-                  <input id="yourName" type="text" style='width:30%;' placeholder="Name" name="yourName"/>
-                </div>
-
-                <div>
-                <label for="email">Your e-mail address: </label>
-                  <input id="email" type="text" style='width:30%;' placeholder="Email" name="email"/>
-                </div>
-
-                <div>
-                <label for="phone">Your phone number: </label>
-                  <input id="phone" type="text" style='width:30%;' placeholder="Phone Number" name="phone"/>
-                </div>
-
-                <div>
-                <label for="message">Your message: </label>
-                </div>
-                <div>
-                  <textarea cols='50%' id="message" placeholder="Message" name="message" style='width:40%;'> </textarea>
-                </div>
+         <!-- Mockups
+      ================================================== -->
 
 
-                  <input type="submit" value="Submit" name="Submit" id="Submit">
+         <?php /*waiting until he gives the OK
+            include 'mockupsWhiteBG.php';*/
+         ?>
 
-                  </form>
-
-                  <?php
-
-
-
-
-            
-                ini_set("SMTP","mail.shaynak112.com");
-                ini_set("smtp_port","25");
-                ini_set('sendmail_from', 'test@shaynak112.com');
-
-                $from = "Sender <test@shaynak112.com>";
-                $to = "Shayna <shayna@shaynak112.com>";
-                $subject = "Message from Portfolio Website";
-
-                $headers = array ('From' => $from, 'To' => $to, 'Subject' => $subject);
-
-                if(isset($_POST['Submit']))
-                {
-                  $contactName = $_POST['yourName'];
-                  $contactEmail = $_POST['email'];
-                  $contactPhone = $_POST['phone'];
-                  $contactBody = $_POST['message'];
-                  $message = "A message from " . $contactName . " at " . $contactEmail . " and " . $contactPhone . " The message is:     " . $contactBody;
-
-                  mail($to,$subject,$message,$from);
-               }
-             
-             /* $formVal = new formValidation();
-
-              $validateName = $formVal->inputTextLogic($contactName);
-              $vvalidateEmail = $formVal->emailLogic($contactEmail);
-              $validatePhone = $formVal->phoneLogic($contactPhone);
-              $validateBody = $formVal->inputTextLogic($contactBody);
+       <!-- Contact
+      ================================================== -->
 
 
-              if($validateName=='' && $validateEmail=='' && $validatePhone=='' && $validateBody=='')
-               {
-                  mail($to,$subject,$message,$from);
-                  echo "<br/>Message sent";
-               }
-               else
-               {
-                  echo "<br/>Please fill out all fields correctly.";
-               }
-                }*/
-
-                ?>
-                 
-                </div>  <!-- end div class col 12 form-->
-                </div>  <!-- end div class col 12 for whole contact us section-->
-                    
-            </div> <!--end row-->
-        
-       </section> <!-- /contact Us -->
+      <?php
+         include 'contactUsWhiteBG.php';
+      ?>
 
    
    </div> <!-- /main-content-wrap -->
