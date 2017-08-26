@@ -268,7 +268,7 @@
 
          </section>
 
-      <!--   <section id='point'>
+      <section id='point'>
 
    		<div class="info-entry">
 
@@ -338,13 +338,6 @@
                   </ul>
 
                   </div>
-
-   					<!<a href="#" class="button animate-this" data-animate="fadeInRight">Learn More</a>-->
-   			 	
-
-	
-   				
-
 
 
    			</div> <!-- /info-entry-content -->
