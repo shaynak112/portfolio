@@ -58,12 +58,12 @@
 
 
             
-                ini_set("SMTP","mail.voxwebtech.com");
-                ini_set("smtp_port","21");
-                ini_set('sendmail_from', 'test@voxwebtech.com');
+                ini_set("SMTP","mail.shaynak112.com");
+                ini_set("smtp_port","25");
+                ini_set('sendmail_from', 'test@shaynak112.com');
 
-                $from = "Sender <test@voxwebtech.com>";
-                $to = "Shayna <shayna@voxwebtech.com>";
+                $from = "Sender <test@shaynak112.com>";
+                $to = "Shayna <shayna@shaynak112.com>";
                 $subject = "Message from Portfolio Website";
 
                 $headers = array ('From' => $from, 'To' => $to, 'Subject' => $subject);
@@ -76,8 +76,10 @@
                   $contactBody = $_POST['message'];
                   $message = "A message from " . $contactName . " at " . $contactEmail . " and " . $contactPhone . " The message is:     " . $contactBody;
 
+                  mail($to,$subject,$message,$from);
+
              
-             // $formVal = new formValidation();
+             /* $formVal = new formValidation();
 
               $validateName = $formVal->inputTextLogic($contactName);
               $vvalidateEmail = $formVal->emailLogic($contactEmail);
@@ -94,7 +96,7 @@
                {
                   echo "<br/>Please fill out all fields correctly.";
                }
-                }
+                }*/
 
                 ?>
                  

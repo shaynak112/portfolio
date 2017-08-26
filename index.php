@@ -77,8 +77,10 @@
             </li>
             </ul>
          </li>
-         <!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#caseStudyPoint" title="mockup to draft to HTML">Point Case Study</a></li>
-         <li><a class="smoothscroll" style='color:#54FF9F;' href="#mockups" title="mockup to draft to HTML">Mockups</a></li>-->
+
+       <li><a class="smoothscroll" style='color:#54FF9F;' href="#mockups" title="mockup to draft to HTML">Mockups</a></li>
+
+         <!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#caseStudyPoint.php" title="mockup to draft to HTML">Point Case Study</a></li>-->
 
          <li><a class="smoothscroll" style='color:#54FF9F;' href="#contact" title="contact Shayna">Contact</a></li>    
 
@@ -266,7 +268,7 @@
 
          </section>
 
-         <section id='point'>
+      <!--   <section id='point'>
 
    		<div class="info-entry">
 
@@ -337,11 +339,11 @@
 
                   </div>
 
-   					<!--<a href="#" class="button animate-this" data-animate="fadeInRight">Learn More</a>-->
-   			 		<br/>
+   					<!<a href="#" class="button animate-this" data-animate="fadeInRight">Learn More</a>-->
+   			 	
 
 	
-   				</div>
+   				
 
 
 
@@ -586,39 +588,37 @@
 			
 
 
-	   		</div>
-	   	</div>
-
-	   		</div>   		
-	   	</div>
-
-         <!-- Case Study Point
-      ================================================== -->
-
-<?php/*apparantly need to write
-
-   include 'caseStudyPoint.php';*/
-?>
-
 
          <!-- Mockups
       ================================================== -->
 
+<?php
+   include 'mockupsWhiteBG.php'
+   ?>
 
-         <?php /*waiting until he gives the OK
-            include 'mockupsWhiteBG.php';*/
-         ?>
+
+         <!-- Case Study Point
+      ================================================== -->
+
+
+
+
+
+         
 
        <!-- Contact
       ================================================== -->
 
+<div style='width:100%;height:25px;background-color:#54FF9F;margin-left:0px;'>
+</div>
 
-      <?php
-         include 'contactUsWhiteBG.php';
-      ?>
-
+<?php
+   include 'contactUsWhiteBG.php'
+   ?>
    
    </div> <!-- /main-content-wrap -->
+
+
 
 
    <!-- footer
