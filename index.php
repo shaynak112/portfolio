@@ -67,18 +67,18 @@
 		<ul class="nav-list">
 			<li><a class="smoothscroll" style='color:#54FF9F;' href="#intro" title="Portfolio Home">Home</a></li>
 			<li><a class="smoothscroll" style='color:#54FF9F;' href="#about" title="About Shayna">About</a></li>
-         <li class="treeview smoothscroll">
-            <li a class="smoothscroll" style='color:#54FF9F;' href="#projects" title="Projects">Projects</span></li>
+         <!--<li class="treeview smoothscroll">-->
+            <li><a class="treeview smoothscroll" style='color:#54FF9F;' href="#projects" title="Projects">Projects</span></li>
             <ul>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#vox" title="VOXWEB news site">VOXWEB</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#point" title="Point Entertainment Toronto">Point Entertainment</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#ryu" title="Remember Your Umbrella">Remember Your Umbrella</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#catAdopt" title="Cat Adoption">Cat Adoption</a></li>
-            </li>
+            
             </ul>
          </li>
 
-       <li><a class="smoothscroll" style='color:#54FF9F;' href="#mockups" title="mockup to draft to HTML">Mockups</a></li>
+       <!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#mockups" title="mockup to draft to HTML">Mockups</a></li>-->
 
          <!--<li><a class="smoothscroll" style='color:#54FF9F;' href="#caseStudyPoint.php" title="mockup to draft to HTML">Point Case Study</a></li>-->
 
@@ -585,9 +585,9 @@
          <!-- Mockups
       ================================================== -->
 
-<?php
-   include 'mockupsWhiteBG.php'
-   ?>
+<!--<?php
+   //include 'mockupsWhiteBG.php'
+   ?>-->
 
 
          <!-- Case Study Point
@@ -602,8 +602,8 @@
        <!-- Contact
       ================================================== -->
 
-<div style='width:100%;height:25px;background-color:#54FF9F;margin-left:0px;'>
-</div>
+<!--<div style='width:100%;height:25px;background-color:#54FF9F;margin-left:0px;'>
+</div> only need if two white BGs in a row-->
 
 <?php
    include 'contactUsWhiteBG.php'
@@ -623,7 +623,9 @@
 	<div class="footer-bottom"> 
 
 	   	<div class="copyright">
-		     	<span>Copyright © www.shaynak112.com</span> 
+         <span>Shayna Kingsbury, Web Developer</span> 
+		     	<span>Copyright © www.shaynak112.com</span>
+            <span><a href='maito:shayna@shaynk112.com'>shayna@shaynak112.com</span>
 		     	         	
 		</div>  		
    	</div>
