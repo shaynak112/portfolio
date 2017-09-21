@@ -488,7 +488,7 @@
 
                   <div class="animate-this" data-animate="fadeInRight"><strong>Admin Side</strong>
                   <ul>
-                     <li>can do any actions that the public cam make (ex. submitting application)</li>
+                     <li>can do any actions that the public can make (ex. submitting application)</li>
                      <li>can make any changes to any cat (add, remove, update, delete)</li>
                      <li>approve and manage the rescues</li>
                      <li>small messaging system within the admin side</li>

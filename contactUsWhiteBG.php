@@ -13,8 +13,8 @@
                 <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>Phone: 647-963-6315</p>
 
                 <div style='color:#003026;text-align:center;' class="buttons animate-this" data-animate="fadeInRight">
-                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" style='color:#003026;' class="button animate-intro">LinkedIn</a>
-                        <a href="https://github.com/shaynak112" style='color:#003026;' class="button animate-intro">GitHub</a>
+                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" style='color:#003026;' class="button animate-intro" target='_blank'>LinkedIn</a>
+                        <a href="https://github.com/shaynak112" style='color:#003026;' class="button animate-intro" target='_blank'>GitHub</a>
                 </div>
 
                 <br/>
