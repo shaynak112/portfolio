@@ -74,6 +74,7 @@
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#point" title="Point Entertainment Toronto">Point Entertainment</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#ryu" title="Remember Your Umbrella">Remember Your Umbrella</a></li>
                <li><a class="smoothscroll" style='color:#54FF9F;' href="#catAdopt" title="Cat Adoption">Cat Adoption</a></li>
+               <li><a class="smoothscroll" style='color:#54FF9F;' href="#artPortfolio" title="Artist Portfolio">Artist Portfolio</a></li>
             
             </ul>
          </li>
@@ -348,7 +349,7 @@
 </section>
 
    		<!--TTC Weather-->
-         <sectoin id='ryu'>
+         <section id='ryu'>
 		<div class="info-entry">
 
    			<div class="half-grey"></div>
@@ -386,7 +387,7 @@
 
    					<p class="animate-this" data-animate="fadeInLeft"><a style='color:#8c8cff;' href='http://www.shaynak112.com/RYU/index.php'>Link to Remember Your Umbrella</a></p>
    					<p class="animate-this" data-animate="fadeInLeft">Website that allows users to check their bus stop (arrival times) and find the current weather</p>
-   					<p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, APIs from TTC and weather, CSS, JavaScript, XML, Materialize</p>
+   					<p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, APIs from TTC and weather, CSS, HTML, JavaScript, XML, Materialize</p>
    					<div class="animate-this" data-animate="fadeInLeft">
    					<ul>
                      <li>mobile friendly; all necessary features available on mobile</li>
@@ -402,8 +403,7 @@
                   <br/>
                   <br/>
                   <br/>
-                  <br/>
-                  <br/>
+
                   </div><!--end col-six tex-part-->
    					</div><!--end row entry div-->
             </div><!--end row info-entry-content div-->
@@ -496,8 +496,7 @@
 
                   </div>
 
-                  <!--<a href="#" class="button animate-this" data-animate="fadeInRight">Learn More</a>-->
-                  <br/>
+                  
 
    
                </div>
@@ -508,6 +507,72 @@
 
          </div> <!-- /info-entry -->
 
+
+<section id='artPortfolio'>
+      <div class="info-entry">
+
+            <div class="half-grey"></div>
+
+            <div class="row info-entry-content">
+
+               <div class="media-wrap">
+         
+                  
+
+                  <div class="media animate-this"  data-animate="fadeInRight">
+                     <img style='border:solid 1px #54FF9F;' src="images/davidJunk/gallery.JPG" alt="gallery for new way web art">
+                  </div>
+
+                  <div class="media animate-this"  data-animate="fadeInRight">
+                     <img style='border:solid 1px #54FF9F;' src="images/davidJunk/search.JPG" alt="search for canvas and tattoos">
+                  </div>
+
+
+                  <div class="media animate-this"  data-animate="fadeInRight">
+                     <img style='border:solid 1px #54FF9F;' src="images/davidJunk/homepage.JPG" alt="Homepage images rotating">
+                  </div>                                 
+
+               </div><!--end media wrap div-->
+
+
+
+               
+
+               <div class="col-six text-part">              
+                  
+                  <h5 class="animate-this" data-animate="fadeInLeft" style='color:white;'>In Progress</h5>
+                  <h2 class="animate-this" data-animate="fadeInLeft">Portfolio for Artist, David Junk</h2>
+
+                  <p class="animate-this" data-animate="fadeInLeft"><a style='color:#8c8cff;' href='http://www.davidjunk.com'>Link to Portfolio</a></p>
+
+                  <p class="animate-this" data-animate="fadeInLeft">Portfolio for Local Artist David Junk</p>
+                  <p class="animate-this" data-animate="fadeInLeft">Technology Used: PHP, MySQL, JavaScript, jQuery, CSS, HTML, Bootstrap, Lightbox library</p>
+                  <div class="animate-this" data-animate="fadeInLeft">
+                  <ul>
+                     <li>features the work in various galleries</li>
+                     <li>each gallery image can be enlarged using the lightbox JavaScript library</li>
+                     <li>all information for the gallery stored in the MySQL database</li>
+                     <li>gallery animations</li>
+                     <li>homepage rotates through chosen images using jQuery</li>
+                     <li>search feature for canvas and tattoo work</li>
+                     <li>mobile friendly/responsive so artist can show work on mobile, tablet, etc</li>
+                     <li>administrative log in for artist to update the images/galleries</li>
+                  </ul>
+                  </div>
+
+                  <div class="animate-this" data-animate="fadeInLeft"><strong>In Progress:</strong>
+
+                  <ul>
+                     <li>completing the administrative side</li>
+                     <li>translation to other languages depending on who is viewing the website</li>
+                  </ul>
+                  </div><!--end animate this div class-->
+                  <br/>
+
+                  </div><!--end col-six tex-part-->
+                  </div><!--end row entry div-->
+            </div><!--end row info-entry-content div-->
+            </section><!--end section for artist portfolio-->
 
 
    	</section> <!-- projects -->
@@ -625,7 +690,7 @@
 	   	<div class="copyright">
          <span>Shayna Kingsbury, Web Developer</span> 
 		     	<span>Copyright © www.shaynak112.com</span>
-            <span><a href='maito:shayna@shaynk112.com'>shayna@shaynak112.com</span>
+            <span><a href='maito:shayna@shaynk112.com'>shayna@shaynak112.com</a></span>
 		     	         	
 		</div>  		
    	</div>
