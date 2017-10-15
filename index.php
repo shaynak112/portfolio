@@ -156,7 +156,7 @@
 
 
 <div style='color:black;font-size:1.1em;'>Fluent in PHP 7.0, Python 3, HTML5 / CSS3 (including mobile friendly development), JavaScript (including jQuery, AngularJS, and nodeJS frameworks), XML, MySQL, Oracle SQL, MSSQL, and Sqlite3.</div>
-<div style='color:black;font-size:1.1em;'>In addition I have previous experience in C, C++, C#, Java, Turing,  and Visual Basic. I have experience working with: the following frameworks: Bootstrap, Magento, Laravel, Materialize, Flask; version control systems - Git and Subversion, and many more. I am knowledgeable in both Windows and Linux environments for development.</div>
+<div style='color:black;font-size:1.1em;'>In addition, I have previous experience in C, C++, C#, Java, Turing,  and Visual Basic. I have experience working with: the following frameworks: Bootstrap, Magento, Laravel, Materialize, Flask; version control systems - Git and Subversion, and many more. I am knowledgeable in both Windows and Linux environments for development.</div>
                <br/>
 
 
@@ -313,7 +313,7 @@
    					<h2 class="animate-this" data-animate="fadeInRight">Point Entertainment Toronto</h2>
 
    					<p class="animate-this" data-animate="fadeInRight"><a style='color:#8c8cff;' href="http://www.pointentertainmentto.com/">Link to Point Entertainment Toronto</a></p>
-   					<p class="animate-this" data-animate="fadeInRight">Website for group of friends who throw events throughout the city</p>
+   					<p class="animate-this" data-animate="fadeInRight">Website for a group who throws events throughout the city</p>
    					<p class="animate-this" data-animate="fadeInRight">Technology Used: PHP, MySQL, JavaScript, CSS, HTML, APIs, social media</p>
 
    					<div class="animate-this" data-animate="fadeInRight"><strong>User Side</strong>
@@ -336,6 +336,7 @@
                      <li>admin staff can track the social media accounts as well as post to the social media accounts</li>
                      <li>easy access to contact information of anyone Point works with (promoters, DJs, club owners, security, photographers, etc.) as well as a basic search function</li>
                      <li>admin staff can keep track of all subscribers to the newsletter as well as the newsletters that have been sent out; newsletter templates are also made available for convenience for the assistants</li>
+                     <li>different levels of access depending on the user role</li>
                   </ul>
 
                   </div>
@@ -393,8 +394,8 @@
                      <li>mobile friendly; all necessary features available on mobile</li>
 	   					<li>user chooses the route and stop where he/she will be boarding the bus</li>
 	   					<li>displays next (up to) five vehicle arrivals</li>
-	   					<li>displays the weather</li>
-	   					<li>use information based on latitude and logitude for TTC as well as weather APIs</li>
+	   					<li>displays the current weather</li>
+	   					<li>uses information based on latitude and logitude for TTC as well as weather APIs</li>
 	   					<li>shows image based on type of weather</li>
                      <li>desktop version includes animated raindrops through CSS animations</li>
    					</ul>
@@ -557,6 +558,7 @@
                      <li>search feature for canvas and tattoo work</li>
                      <li>mobile friendly/responsive so artist can show work on mobile, tablet, etc</li>
                      <li>administrative log in for artist to update the images/galleries</li>
+                     <li>implemented search engine optimization (SEO)</li>
                   </ul>
                   </div>
 
