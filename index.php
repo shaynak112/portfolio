@@ -22,8 +22,16 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>Shayna Kingsbury</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+   <meta property="og:site_name" content="Portfolio for Shayna Kingsbury"/>
+   <meta property="og:title" content="Portfolio for Web Developer, Shayna Kingsbury"/>
+   <meta property="og:description" content="Web Development Portfolio. Specializing in PHP, MySQL, and JavaScript."/>
+   <meta property="og:image" content="favicon.png">
+   <meta property="og:url" content="http://www.shaynak112.com/">
+   <meta property="og:type" content="portfolio"/>
+
+	<meta name="description" content="Web Developer Portfolio">  
+	<meta name="author" content="Shayna Kingsbury">
+   <meta name="image" content="favicon.png">
 
    <!-- mobile specific metas
    ================================================== -->
@@ -294,12 +302,16 @@
                   <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminEventDetails.jpg" alt="Event Details for one of Point's events">
                   </div>
 
-                  <div class="media animate-this" data-animate="fadeInLeft">
-                  <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminContact.jpg" alt="contact information for one of Point's contacts">
-                  </div>
 
                   <div class="media animate-this" data-animate="fadeInLeft">
                   <img style='border:solid 1px #54FF9F;' src="images/point/pointAdminNewsletters.jpg" alt="newsletter and subscriber page for Point">
+                  </div>
+
+                  <div class="media animate-this" data-animate="fadeInLeft">
+                  <video style='border:solid 1px #54FF9F;' width='100%' controls>
+                 <source src="images/point/pointAdmin.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+               </video>
                   </div>
 
 
