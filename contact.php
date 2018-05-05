@@ -9,19 +9,19 @@
                   Contact Shayna
                </h2>
 
-                <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>E-mail: <a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a></p>
-                <p class='animate-this' data-animate="fadeInRight" style='text-align:center;font-size:1.5em;'>Phone: 647-963-6315</p>
+                <p style='text-align:center;font-size:1.5em;'>E-mail: <a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a></p>
+                <p style='text-align:center;font-size:1.5em;'>Phone: 647-963-6315</p>
 
-                <div style='color:#003026;text-align:center;' class="buttons animate-this" data-animate="fadeInRight">
-                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" style='color:#003026;' class="button animate-intro" target='_blank'>LinkedIn</a>
-                        <a href="https://github.com/shaynak112" style='color:#003026;' class="button animate-intro" target='_blank'>GitHub</a>
+                <div style='color:#003026;text-align:center;' class="buttons">
+                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" style='color:#003026;' class="button" target='_blank'>LinkedIn</a>
+                        <a href="https://github.com/shaynak112" style='color:#003026;' class="button" target='_blank'>GitHub</a>
                 </div>
 
                 <br/>
                 <br/>
                 <br/>
 
-                <div class='col-twelve animate-this' data-animate="fadeInLeft" align='center'>
+                <div class='col-twelve' align='center'>
 
                     <form name="contactform" style='margin:0 auto;' method="post" action="">
 
@@ -54,9 +54,6 @@
 
                   <?php
 
-
-
-
             
                 ini_set("SMTP","mail.shaynak112.com");
                 ini_set("smtp_port","25");
@@ -77,6 +74,7 @@
                   $message = "A message from " . $contactName . " at " . $contactEmail . " and " . $contactPhone . " The message is:     " . $contactBody;
 
                   mail($to,$subject,$message,$from);
+                }
 
              
              /* $formVal = new formValidation();
